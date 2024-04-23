@@ -15,5 +15,5 @@ spec:
         app: sangay-deploy
     spec:
       containers:
-      - image: sangaywangmo/bhutan:26
+      - image: sangaywangmo/bhutan:27
         name: pet
