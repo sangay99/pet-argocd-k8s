@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: sangay-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: sangay-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: sangay-deploy
     spec:
       containers:
-      - image: cloudsihmar/newpet:13
+      - image: sangaywangmo/newpet:13
         name: pet
