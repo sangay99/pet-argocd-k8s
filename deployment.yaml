@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: sangay-deploy
   name: sangay-deploy
 spec:
   replicas: 2
@@ -15,5 +15,5 @@ spec:
         app: sangay-deploy
     spec:
       containers:
-      - image: sangaywangmo/newpet:13
+      - image: sangaywangmo/bhutan:latest
         name: pet
